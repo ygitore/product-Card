@@ -2,10 +2,10 @@ body{
     margin: 0px;
     padding: 0px;
     font-size:14px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Alegreya, sans-serif;
     line-height: 1.4;
     color: #fff;
-    background-color: #1F618D;
+    background-color: #323232;
 }
 .container{
     display:flex;
@@ -40,7 +40,6 @@ h2{
     color:yellow;
     margin-bottom:0px;
     text-align: center;
-    position: relative;
 }
 .pricing-details,
 .product-size-and-weight{
@@ -53,13 +52,6 @@ h2{
     padding: 5px;
     margin-top: 0px;
 }
-.soldout {
-    position: absolute;
-    top:50px;
-    right:120px;
-    opacity: 0.2;
-    filter: alpha(opacity=90)
-}
 .product-description{
     text-align: justify;
 }
@@ -69,4 +61,82 @@ h2{
 footer{
     font-size: 12px;
     margin-top: 0px;
+}
+.pricing-details{
+    margin-top: 0;
+    padding-top:0; 
+}
+.pricing{
+    margin-bottom: 0;
+}
+.three{
+  position: relative;
+}
+.soldout{
+  opacity: 0.2;
+  filter: alpha(opacity=90);
+}
+@media screen and (min-width: 225px) {
+  body {
+    background-color:black;
+  }
+  .container img{
+    padding:5px;
+  }
+}
+@media screen and (min-width: 465px) {
+  body {
+    background-color:black;
+  }
+  .container img{
+    padding:5px;
+  }
+}
+@media screen and (min-width: 600px) {
+  body {
+    background-color:#607D8B;
+  }
+  .container img{
+    padding:10px;
+  }
+}
+@media screen and (min-width: 767px) {
+  body {
+    background-color:#607D8B;
+  }
+  .container img{
+    margin: auto;
+    padding:auto;
+    display: block;
+  }
+}
+@media screen and (min-width: 991px) {
+  body {
+    background-color:#455A64;
+  }
+}  
+@media screen and (min-width: 479px) {
+  body {
+    background-color:#1F618D;
+  }
+}
+@media screen and (min-width: 1024px) {
+  body {
+    background-color:#1F618D;
+  }  
+}  
+@media screen and (min-width:   1280px) {
+  body {
+    background-color:#1F618D;
+  }
+}
+@media screen and (min-width:1360 px) {
+  body {
+    background-color:#1F618D;
+  }
+}
+@media screen and (min-width:1366px) {
+  body {
+    background-color:#00796B;
+  }
 }
